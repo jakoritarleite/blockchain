@@ -2,6 +2,7 @@ use sha2::{Digest, Sha256};
 
 pub mod block;
 pub mod chain;
+pub mod p2p;
 
 pub const NETWORK_DIFFICULY: &str = "000";
 
